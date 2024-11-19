@@ -1,4 +1,5 @@
 ## Características
+![Panrallazo del simulador financiero](pantallazo.jpg)
 - Entrada personalizada para ingresos, gastos y ahorros.
 - Validación de datos en tiempo real.
 - Visualización interactiva con gráficos tipo "doughnut".
