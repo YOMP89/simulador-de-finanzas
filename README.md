@@ -1,4 +1,4 @@
-#Simulador Financiero
+##Simulador Financiero
 
 ## Características
 ![Panrallazo del simulador financiero](pantallazo.jpg)
