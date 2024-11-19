@@ -1,5 +1,4 @@
-##Simulador Financiero
-
+# Simulador Financiero
 ## Características
 ![Panrallazo del simulador financiero](pantallazo.jpg)
 - Entrada personalizada para ingresos, gastos y ahorros.
