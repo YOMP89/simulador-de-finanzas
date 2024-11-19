@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Finanzas Personales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Simulador de Finanzas Personales</h1>
+    </header>
+    <main>
+        <section id="budget-input">
+            <h2>Configura tu presupuesto</h2>
+            <form id="budget-form">
+                <label for="income">Ingreso Mensual:</label>
+                <input type="number" id="income" placeholder="Ej: 1500" required>
+                
+                <label for="expenses">Gastos Mensuales:</label>
+                <input type="number" id="expenses" placeholder="Ej: 1000" required>
+                
+                <label for="savings">Ahorros Mensuales Deseados:</label>
+                <input type="number" id="savings" placeholder="Ej: 200" required>
+                
+                <button type="submit">Simular</button>
+            </form>
+        </section>
+        <section id="result">
+            <h2>Resultados</h2>
+            <div id="chart-container">
+                <!-- Aquí se renderiza el gráfico -->
+                <canvas id="finance-chart"></canvas>
+            </div>
+            <div id="summary">
+                <!-- Resumen financiero -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Simulador de Finanzas</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
